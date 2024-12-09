@@ -48,7 +48,7 @@ Los Pokémon están inspirados en figuras famosas, y sus ataques reflejan aspect
 ### **Ejemplos**
 - 🔥 **Camaron de la Isla** (Fuego): **Flamenquito** y **Cigala**
 - 🌱 **Rosalía** (Planta): **Motomami** y **Unias**
-- 💧 **David Bisbal** ("Bisbal"): **Patada voladora** y **Yatecomo**
+- 💧 **David Bisbal** ("Agua"): **Patada voladora** y **Yatecomo**
 
 ---
 
