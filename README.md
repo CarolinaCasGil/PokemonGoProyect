@@ -25,6 +25,10 @@ Este proyecto es una simulación de una aventura Pokémon simplificada, donde lo
 7. **Continuar o Finalizar**  
    - Después de cada encuentro, el jugador puede elegir si desea seguir explorando o finalizar el juego.
 
+
+https://github.com/user-attachments/assets/260ec461-529c-419b-8073-72c59a933455
+
+
 ---
 
 ## 🗂️ Estructura del Proyecto
