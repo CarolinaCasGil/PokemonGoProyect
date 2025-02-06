@@ -1,29 +1,30 @@
-# 🐾 Proyecto Pokemon
+# 🐾 Pokémon Project
 
-Este proyecto es una simulación de una aventura Pokémon simplificada, donde los jugadores pueden elegir su Pokémon inicial, explorar el mundo, combatir y capturar nuevos Pokémon. Además, los Pokémon añadidos están inspirados en personajes famosos, y sus ataques están relacionados con sus vidas, lo que añade un toque divertido y único al juego.
+This project is a simplified Pokémon adventure simulation where players can choose their initial Pokémon, explore the world, battle, and capture new Pokémon. Additionally, the added Pokémon are inspired by famous characters, and their attacks are related to their lives, which adds a fun and unique touch to the game.
 
 ---
 
-## 🎮 Cómo Jugar
-1. **Elección de Pokémon Inicial**  
-   Al comenzar, el jugador elige su primer Pokémon para iniciar la aventura.
-2. **Exploración**  
-   El jugador "camina" por el mundo Pokémon y puede encontrar Pokémon salvajes.
-3. **Encuentros con Pokémon Salvajes**  
-   Al encontrarse con un Pokémon salvaje, el jugador tiene dos opciones:  
-   - **Combatir**: Enfrentar al Pokémon usando ataques.  
-   - **Huir**: Escapar del encuentro.
-4. **Combate**  
-   Si el jugador decide combatir, tiene dos posibilidades:  
-   - **Luchar**: Usar los ataques específicos de su Pokémon.  
-   - **Capturar**: Intentar capturar al Pokémon salvaje.
-5. **Captura de Pokémon**  
-   - Se realizan **3 intentos de captura** de forma aleatoria.  
-   - Si tiene éxito, el Pokémon se añade a la colección del jugador.  
-6. **Gestión de Pokémon Capturados**  
-   - El jugador puede consultar un array que muestra todos los Pokémon capturados.
-7. **Continuar o Finalizar**  
-   - Después de cada encuentro, el jugador puede elegir si desea seguir explorando o finalizar el juego.
+## 🎮 How to Play
+1. **Choose Initial Pokémon**  
+   At the beginning, the player chooses their first Pokémon to start the adventure.
+2. **Exploration**  
+   The player "walks" through the Pokémon world and may encounter wild Pokémon.
+3. **Wild Pokémon Encounters**  
+   When encountering a wild Pokémon, the player has two options:  
+   - **Battle**: Fight the Pokémon using attacks.  
+   - **Flee**: Escape from the encounter.
+4. **Combat**  
+   If the player chooses to battle, there are two options:  
+   - **Fight**: Use the specific attacks of their Pokémon.  
+   - **Capture**: Try to capture the wild Pokémon.
+5. **Pokémon Capture**  
+   - **3 capture attempts** are made randomly.  
+   - If successful, the Pokémon is added to the player's collection.  
+6. **Managing Captured Pokémon**  
+   - The player can view an array showing all the captured Pokémon.
+7. **Continue or End**  
+   - After each encounter, the player can choose whether to continue exploring or end the game.
+
 
 
 https://github.com/user-attachments/assets/260ec461-529c-419b-8073-72c59a933455
@@ -31,30 +32,28 @@ https://github.com/user-attachments/assets/260ec461-529c-419b-8073-72c59a933455
 
 ---
 
-## 🗂️ Estructura del Proyecto
-El proyecto está organizado en dos paquetes principales:
+## 🗂️ **Project Structure**
+The project is organized into two main packages:
 
-### **1. Paquete Dominio**
-Define la estructura y comportamiento de los Pokémon y otros elementos del juego:
-- **Pokemon**: Clase padre para todos los Pokémon.
-- **Agua**, **Planta**, **Fuego**: Clases específicas según el tipo de Pokémon.
-- **Ataque**: Define los ataques que pueden realizar los Pokémon.
-- **Entrenador**: Representa al jugador.
+### **1. Domain Package**
+Defines the structure and behavior of the Pokémon and other game elements:
+- **Pokemon**: Parent class for all Pokémon.
+- **Agua**, **Planta**, **Fuego**: Specific classes according to the type of Pokémon.
+- **Ataque**: Defines the attacks that Pokémon can perform.
+- **Entrenador**: Represents the player.
 
-### **2. Paquete Pokemon**
-Contiene la clase principal con el método `main` que ejecuta el juego.
-
----
-
-## 🔥 Pokémon y Ataques
-Los Pokémon están inspirados en figuras famosas, y sus ataques reflejan aspectos de sus vidas:
-
-### **Ejemplos**
-- 🔥 **Camaron de la Isla** (Fuego): **Flamenquito** y **Cigala**
-- 🌱 **Rosalía** (Planta): **Motomami** y **Unias**
-- 💧 **David Bisbal** ("Agua"): **Patada voladora** y **Yatecomo**
+### **2. Pokemon Package**
+Contains the main class with the `main` method that runs the game.
 
 ---
+
+## 🔥 **Pokémon and Attacks**
+The Pokémon are inspired by famous figures, and their attacks reflect aspects of their lives:
+
+### **Examples**
+- 🔥 **Camaron de la Isla** (Fire): **Flamenquito** and **Cigala**
+- 🌱 **Rosalía** (Plant): **Motomami** and **Unias**
+- 💧 **David Bisbal** (Water): **Flying Kick** and **Yatecomo**
 
 ## 🛠️ Requisitos
 - **Java JDK 8** o superior.
